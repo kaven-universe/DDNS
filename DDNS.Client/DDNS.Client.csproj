@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="$(NuGetPackageRoot)kaven.standard\2.6.0\Independent\IoC.DDNS.cs" Link="IoC.DDNS.cs" />
+    <Compile Include="$(NuGetPackageRoot)kaven.standard\2.6.0\Independent\IoC.Mail.cs" Link="IoC.Mail.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AlibabaCloud.SDK.Alidns20150109" Version="4.0.0" />
+    <PackageReference Include="Kaven.Standard" Version="2.6.0" />
+    <PackageReference Include="MailKit" Version="4.14.1" />
+  </ItemGroup>
+
+</Project>
