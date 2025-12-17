@@ -6,7 +6,7 @@ namespace DDNS.Client
     {
         static void Main(string[] args)
         {
-            Utility.StartConsoleApplication<AppDynamicDomainNameServer>(new ConsoleApplicationStartOptions()
+            Utility.StartConsoleApplication<AppDynamicDomainNameClient>(new ConsoleApplicationStartOptions()
             {
                 IoC = new IoC(),
             });
