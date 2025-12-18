@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="$(NuGetPackageRoot)kaven.standard\2.6.1\Independent\IoC.Mail.cs" Link="IoC.Mail.cs" />
+    <Compile Include="$(NuGetPackageRoot)kaven.standard\2.6.2\Independent\IoC.Mail.cs" Link="IoC.Mail.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Kaven.Standard" Version="2.6.1" />
+    <PackageReference Include="Kaven.Standard" Version="2.6.2" />
     <PackageReference Include="MailKit" Version="4.14.1" />
   </ItemGroup>
 
