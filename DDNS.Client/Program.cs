@@ -4,9 +4,9 @@ namespace DDNS.Client
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static async Task Main(string[] args)
         {
-            Utility.StartConsoleApplication<AppDynamicDomainNameClient>(new ConsoleApplicationStartOptions()
+            await Utility.StartConsoleApplication<AppDynamicDomainNameClient>(new ConsoleApplicationStartOptions()
             {
                 IoC = new IoC(),
             });
